@@ -20,4 +20,4 @@ We use http://github.com/ for version control.
 
 Authors
 
-Ramesh Babu, Donti - Initial work - ProjectABC
+Ramesh Babu, Donti - Initial work - Project
