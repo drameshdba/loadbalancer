@@ -16,7 +16,7 @@ Access to Azure
 
 Versioning
 
-We use Github for version control.
+We use http://github.com/ for version control.
 
 Authors
 
