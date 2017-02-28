@@ -1,7 +1,7 @@
 # ProjectA
 this template allows you to deploy a simple Windows or Linux VM for using the Infrastructure Pattern Template CVM1.
 
-The Infrastructure Pattern Template vm-poc-1 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A0 size VM with OS and Data Disk.
+The Infrastructure Pattern Template CVM1 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A0 size VM with OS and Data Disk.
 
 ## Usage
 
