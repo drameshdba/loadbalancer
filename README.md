@@ -1,14 +1,29 @@
-# Project ABC
+# ProjectA
 
-This template allows you to deploy a simple Windows or Linux VM for using the Infrastructure Pattern Template **vm-poc-1**. 
+This template allows you to deploy a simple Windows or Linux VM for using the Infrastructure Pattern Template CVM1, CVM2, CVM3, CVM4 and CVM5. 
 
 The Infrastructure Pattern Template **vm-poc-1** can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one D2 v2 size VM with OS and Data Disk.
+
+The Infrastructure Pattern Template CVM1 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A0 size VM with OS and Data Disk.
+
+The Infrastructure Pattern Template CVM2 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A1 size VM with OS and Data Disk.
+
+
+The Infrastructure Pattern Template CVM3 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A2 size VM with OS and Data Disk.
+
+
+The Infrastructure Pattern Template CVM4 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A3 size VM with OS and Data Disk.
+
+The Infrastructure Pattern Template CVM5 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_D1 size VM with OS and Data Disk.
+Usage
 
 ## Usage
 
 Click on the **Deploy to Azure** button below. This will open the Azure Portal (login if necessary) and start a Custom Deployment. The following Parameters will be shown and must be updated / selected accordingly. 
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmrptsai%2FProjectABC%2Fmaster%2Fazuredeploy.json" target="_blank">
+Click on the **Deploy to Azure** button below. This will open the Azure Portal (login if necessary) and start a Custom Deployment. The following Parameters will be shown and must be updated / selected accordingly. 
+
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdrameshdba%2FProjectA%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
@@ -16,17 +31,18 @@ Click on the **Deploy to Azure** button below. This will open the Azure Portal (
 
 - baseUrl
   - Select the appropriate Repository Base URL containing Pattern Templates and Resource Templates
-  - Default is 'https://raw.githubusercontent.com/mrptsai/'.
+  - Default is 'https://raw.githubusercontent.com/drameshdba/'.
 
 - patternName
   - Select the appropriate Infrastructure Pattern.
-  - Default is 'vm-poc-1'.
+  - Default is 'cvm1'.
   - Valid patternName's are:
   ```
-       1 - vm-poc-1 (Creates a single VM with a new or existing Storage Account and a new or existing Virtual Network)
-       2 - vm-dsc-poc-1 (Creates a single VM running IIS with a new or existing Storage Account and a new or existing Virtual Network)
-       3 - vm-3tier-poc-1 (Creates a 3 Tier environment with a new or existing Storage Account and a new or existing Virtual Network, Management Jumpbox with PublicIP and Network Security Groups)
-       4 - vm-dual-poc-1 (Creates a scalable balanced highly available Internet facing Web Tier with a new or existing Storage Account and a new or existing Virtual Network and Network Security Group)
+       	1 -cvm1  (Creates a single VM with a new or existing Storage Account and a new or existing Virtual Network)
+        2 -cvm2  (Creates a single VM with a new or existing Storage Account and a new or existing Virtual Network)
+        3 -cvm3  (Creates a single VM with a new or existing Storage Account and a new or existing Virtual Network)
+        4 -cvm4  (Creates a single VM with a new or existing Storage Account and a new or existing Virtual Network)
+        5 -cvm5  (Creates a single VM with a new or existing Storage Account and a new or existing Virtual Network)
   ```
 
 - storageAccountName
@@ -112,6 +128,6 @@ We use [Github](http://github.com/) for version control.
 
 ## Authors
 
-* **Paul Towler** - *Initial work* - [ProjectABC](https://github.com/mrptsai/ProjectABC)
+* **Donti, Ramesh Babu** - *Initial work* - [ProjectABC](https://github.com/drameshdba/ProjectA)
 
-See also the list of [contributors](https://github.com/mrptsai/ProjectABC/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/drameshdba/ProjectA/graphs/contributors) who participated in this project.
