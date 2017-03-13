@@ -128,6 +128,6 @@ We use [Github](http://github.com/) for version control.
 
 ## Authors
 
-* **Donti, Ramesh Babu** - *Initial work* - [ProjectABC](https://github.com/drameshdba/ProjectA)
+* **Donti, Ramesh Babu** - *Initial work* - [ProjectA](https://github.com/drameshdba/ProjectA)
 
 See also the list of [contributors](https://github.com/drameshdba/ProjectA/graphs/contributors) who participated in this project.
