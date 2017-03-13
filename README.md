@@ -2,19 +2,19 @@
 
 This template allows you to deploy a simple Windows or Linux VM for using the Infrastructure Pattern Template CVM1, CVM2, CVM3, CVM4 and CVM5. 
 
-The Infrastructure Pattern Template **vm-poc-1** can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one D2 v2 size VM with OS and Data Disk.
+	The Infrastructure Pattern Template **vm-poc-1** can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one D2 v2 size VM with OS and Data Disk.
 
-The Infrastructure Pattern Template CVM1 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A0 size VM with OS and Data Disk.
+	The Infrastructure Pattern Template CVM1 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A0 size VM with OS and Data Disk.
 
-The Infrastructure Pattern Template CVM2 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A1 size VM with OS and Data Disk.
-
-
-The Infrastructure Pattern Template CVM3 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A2 size VM with OS and Data Disk.
+	The Infrastructure Pattern Template CVM2 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A1 size VM with OS and Data Disk.
 
 
-The Infrastructure Pattern Template CVM4 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A3 size VM with OS and Data Disk.
+	The Infrastructure Pattern Template CVM3 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A2 size VM with OS and Data Disk.
 
-The Infrastructure Pattern Template CVM5 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_D1 size VM with OS and Data Disk.
+
+	The Infrastructure Pattern Template CVM4 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_A3 size VM with OS and Data Disk.
+
+	The Infrastructure Pattern Template CVM5 can either deploy a new or attach to an existing Storage Account, create a new or attach to an existing Virtual Network with 1 subnet and one Standard_D1 size VM with OS and Data Disk.
 
 ## Usage
 
