@@ -117,12 +117,12 @@
             "metadata": {
                 "description": "How many Virtual Machine do you want to deploy?"
             },
-            "defaultValue": "1",
+            "defaultValue": 1,
             "allowedValues": [ 
-                "1", 
-                "2", 
-                "3", 
-                "4" 
+                1, 
+                2, 
+                3, 
+                4 
             ]
         },
         "vmType": {
