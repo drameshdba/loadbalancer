@@ -114,7 +114,6 @@
         },
         "vmCount": {
             "type": "array",
-            "type": "string",
             "metadata": {
                 "description": "How many Virtual Machine do you want to deploy?"
             },
