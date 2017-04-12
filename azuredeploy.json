@@ -28,6 +28,7 @@
                                 The Infrastructure Pattern Template CVM3 Standard_A2 size VM with OS and Data Disk.
                                 The Infrastructure Pattern Template CVM4 Standard_A3 size VM with OS and Data Disk.
                                 The Infrastructure Pattern Template CVM5 Standard_D1 size VM with OS and Data Disk"
+                  },
       "type": "string",
       "minLength": 1,
       "defaultValue": "Standard_A1",
