@@ -15,6 +15,11 @@
     },
     "storage-account-name": {
       "type": "string"
+      "metadata": {
+                "description": "Enter a unique Name for a new Storage Account or specify the name of an existing Storage Account. Use PowerShell and the following command to generate a unique Storage Account Name 'storage + (-join ((48..57) + (97..122) | Get-Random -Count 15 | % {[char]$_}))'"
+            },
+            "defaultValue": "storage8tza7ir3wymqkef"
+        },
     },
     "number-of-instance": {
       "type": "int",
