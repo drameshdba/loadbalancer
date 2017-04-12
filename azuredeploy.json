@@ -20,6 +20,24 @@
             },
             "defaultValue": "storage8tza7ir3xymqkef"
         },
+    "storageNewOrExisting": {
+            "type": "string",
+            "metadata": {
+                "description": "Is the Storage Account New or Existing?"
+            },
+            "defaultValue": "existing",
+            "allowedValues": [
+                "new",
+                "existing"
+            ]
+},
+"storageExistingResourceGroup": {
+            "type": "string",
+            "metadata": {
+                "description": "Specifiy the existing Storage Resource Group. Leave blank if creating a new Storage Account"
+            },
+            "defaultValue": "TEST-Melbourne"
+        },
     "number-of-instance": {
       "type": "int",
       "defaultValue": 2
