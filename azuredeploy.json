@@ -157,7 +157,7 @@
         "osProfile": {
           "computerName": "[concat(variables('VM-prefix'), copyIndex())]",
           "adminUsername": "[parameters('vm-admin-name')]",
-          "adminPassword": "[parameters('vm-admin-password')]"
+          "adminPassword": "[parameters('vm-admin-password')]",
           "type": "[int(parameters('vmType'))]"
         },
         "storageProfile": {
