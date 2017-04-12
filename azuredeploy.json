@@ -261,14 +261,14 @@
     },
     {
       "type": "Microsoft.Storage/storageAccounts",
+      "metadata": {
+                "description": "Enter a unique Name for a new Storage Account or specify the name of an existing Storage Account. Use PowerShell and the following command to generate a unique Storage Account Name 'storage + (-join ((48..57) + (97..122) | Get-Random -Count 15 | % {[char]$_}))'"
+            },
       "name": "[parameters('storage-account-name')]",
       "apiVersion": "2015-06-15",
       "location": "[resourceGroup().location]",
       "tags": {
         "displayName": "Storage Account"
-        "metadata": {
-                "description": "Enter a unique Name for a new Storage Account or specify the name of an existing Storage Account. Use PowerShell and the following command to generate a unique Storage Account Name 'storage + (-join ((48..57) + (97..122) | Get-Random -Count 15 | % {[char]$_}))'"
-            },
         "defaultValue": "storage8tza7i53wymqkef"
       },
       "properties": {
