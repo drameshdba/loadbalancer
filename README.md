@@ -1,4 +1,4 @@
-# ProjectA
+# loadbalancer
 
 This template allows you to deploy a simple Windows or Linux VM for using the Infrastructure Pattern Template CVM1, CVM2, CVM3, CVM4 and CVM5. 
 
