@@ -25,28 +25,12 @@
       "minLength": 1,
       "defaultValue": "Standard_A1",
       "allowedValues": [
-        "Basic_A0",
-        "Basic_A1",
-        "Basic_A2",
-        "Basic_A3",
-        "Basic_A4",
         "Standard_A0",
         "Standard_A1",
         "Standard_A2",
         "Standard_A3",
-        "Standard_A4",
-        "Standard_A5",
-        "Standard_A6",
-        "Standard_A7",
         "Standard_D1",
-        "Standard_D2",
-        "Standard_D3",
-        "Standard_D4",
-        "Standard_D11",
-        "Standard_D12",
-        "Standard_D13",
-        "Standard_D14"
-      ]
+          ]
     }
   },
   "variables": {
