@@ -239,10 +239,9 @@
       "properties": {
         "publicIPAllocationMethod": "Dynamic",
         "idleTimeoutInMinutes": 4,
-        "dnsSettings": {
-          "domainNameLabel": "vpl-ip"
-        }
-      }
+},
+            "dependsOn": []
+     
     },
     {
       "type": "Microsoft.Network/virtualNetworks",
