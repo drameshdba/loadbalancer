@@ -20,7 +20,6 @@
             },
             "defaultValue": "storage8tza7ir3wymqkef"
         },
-    },
     "number-of-instance": {
       "type": "int",
       "defaultValue": 2
