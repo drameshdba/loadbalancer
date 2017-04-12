@@ -4,7 +4,7 @@
   "parameters": {
     "vm-admin-name": {
       "type": "string",
-      "defaultValue": "Macgyver"
+      "defaultValue": "testuser"
     },
     "vm-admin-password": {
       "type": "securestring"
@@ -22,7 +22,7 @@
     },
     "vm-size": {
       "metadata": {
-                "description": "Select the appropriate Architectural Pattern 
+                "description": "Select the appropriate Architectural Pattern--> 
                                 The Infrastructure Pattern Template CVM1 Standard_A0 size VM with OS and Data Disk.
                                 The Infrastructure Pattern Template CVM2 Standard_A1 size VM with OS and Data Disk.
                                 The Infrastructure Pattern Template CVM3 Standard_A2 size VM with OS and Data Disk.
