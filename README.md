@@ -18,8 +18,6 @@ This template allows you to deploy a simple Windows or Linux VM for using the In
 
 Click on the **Deploy to Azure** button below. This will open the Azure Portal (login if necessary) and start a Custom Deployment. The following Parameters will be shown and must be updated / selected accordingly. 
 
-Click on the **Deploy to Azure** button below. This will open the Azure Portal (login if necessary) and start a Custom Deployment. The following Parameters will be shown and must be updated / selected accordingly. 
-
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdrameshdba%2Floadbalancer%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
@@ -34,6 +32,6 @@ We use [Github](http://github.com/) for version control.
 
 ## Authors
 
-* **Donti, Ramesh Babu** - *Initial work* - [ProjectA](https://github.com/drameshdba/ProjectA)
+* **Donti, Ramesh Babu** - *Initial work* - [loadbalancer](https://github.com/drameshdba/loadbalancer)
 
 See also the list of [contributors](https://github.com/drameshdba/ProjectA/graphs/contributors) who participated in this project.
